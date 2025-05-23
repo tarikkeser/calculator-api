@@ -38,3 +38,10 @@ This API provides basic arithmetic operations such as addition, subtraction, mul
 docker-compose up
 ```
 2. Go to http://localhost:8000/docs to see the Swagger UI API documentation.
+
+
+## Future Improvements
+-  Complex mathematical operations (e.g., exponentiation, square root, etc.).
+-  Better error handling and validation.
+-  Error logging.
+-  UI integration for the API. (for example , a front end framework like Vue.js)
