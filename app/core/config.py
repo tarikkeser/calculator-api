@@ -2,7 +2,7 @@ from pydantic_settings import BaseSettings,SettingsConfigDict
 
 class Settings (BaseSettings):
     app_name: str = "Calculator API"
-    app_version: str = "1.0.0"
+    app_version: str = "2.0.0"
     
     #class Config:
         #env_file = ".env"

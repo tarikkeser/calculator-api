@@ -41,6 +41,7 @@ docker-compose up
 
 
 ## Future Improvements
+-  Branch and merge strategy for the API. (For example, new branch for new features and merging it to development branch and then to main branch while deploying)
 -  Complex mathematical operations (e.g., exponentiation, square root, etc.).
 -  Better error handling and validation.
 -  Error logging.
