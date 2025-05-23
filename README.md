@@ -33,11 +33,20 @@ This API provides basic arithmetic operations such as addition, subtraction, mul
 
 ## Installation and Run
 
-1. Clone the repository:
+1. Clone the repository
+
+2. Make sure you are in the correct directory:
+
+```bash
+pwd
+```
+   The output should look like: `.../calculator-api`
+
+3. Start the API 
 ```bash
 docker-compose up
 ```
-2. Go to http://localhost:8000/docs to see the Swagger UI API documentation.
+4. Go to http://localhost:8000/docs to see the Swagger UI API documentation.
 
 
 ## Future Improvements
