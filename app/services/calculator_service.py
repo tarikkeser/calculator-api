@@ -1,23 +1,24 @@
-from app.api.v1.models import ResultModel
-
 class CalculatorService:
+    
+    # self = this in C#
+    
     # add method to add two numbers.
-    @staticmethod
-    def add(a: float, b: float) -> float:
+
+    def add(self,a: float, b: float) -> float:
         return a + b
 
     # subtract method to subtract two numbers.
-    @staticmethod
-    def subtract(a: float, b: float) -> float:
+
+    def subtract(self,a: float, b: float) -> float:
         return a - b
     
     # multiply method to multiply two numbers.
-    @staticmethod
-    def multiply(a: float, b: float) -> float:
+
+    def multiply(self,a: float, b: float) -> float:
         return a * b
     # divide method to divide two numbers.
-    @staticmethod
-    def divide(a: float, b: float) -> float:
+
+    def divide(self,a: float, b: float) -> float:
         if b == 0:
            raise ZeroDivisionError()
         return a / b
